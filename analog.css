@@ -2,18 +2,19 @@ html body {
     font-size: 80%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode';
     letter-spacing: 0.15em;
-    background: rgb(212,212,212);
-    background: linear-gradient(90deg, rgba(212,212,212,1) 6%, rgba(148,187,233,1) 27%, rgba(169,169,169,1) 35%, rgba(55,150,231,1) 61%, rgba(110,153,167,1) 69%, rgba(170,184,194,1) 89%);
+    background: rgb(150, 195, 204);
+    background: linear-gradient(180deg, rgba(173,232,244,1) 0%, rgb(5, 238, 238) 35%, rgba(7,85,100,1) 100%,)
+
 }
 #page{
     max-width: 940px;
     min-width: 720px;
     margin: 10px auto 10px auto;
     padding: 20px;
-    border: 4px double #000;
-    background-color: #ffffff;
-    background: rgb(212,212,212);
-background: linear-gradient(90deg, rgba(212,212,212,1) 6%, rgba(148,187,233,1) 27%, rgba(169,169,169,1) 35%, rgba(55,150,231,1) 61%, rgba(110,153,167,1) 69%, rgba(170,184,194,1) 89%);
+    border: 4px double #4c4242;
+    background: rgb(173,232,244);
+    background: linear-gradient(180deg, rgba(173,232,244,1) 0%, rgba(5,199,238,1) 35%, rgba(7,85,100,1) 100%)
+
 }
 
 #logo{
@@ -106,7 +107,7 @@ circle{
     display: none;
     text-align: center;
     background-color: #9bcce2;
-    color: #fff;
+    color: #e6b3b3e9;
     padding: 10px;
 }
 .circle:hover .text-overlay{
